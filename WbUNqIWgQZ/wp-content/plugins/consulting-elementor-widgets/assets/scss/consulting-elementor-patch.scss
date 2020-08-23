@@ -1,0 +1,7 @@
+.toplevel_page_cew_patch {
+    #wpbody-content {
+        > *:not(#cew_patch) {
+            //display: none;
+        }
+    }
+}

@@ -1,0 +1,156 @@
+[
+    {
+        "wp_inactive_widgets": [
+            "mc4wp_form_widget-2",
+            "mc4wp_form_widget-3",
+            "mc4wp_form_widget-4",
+            "socials-2",
+            "socials-3"
+        ],
+        "consulting-right-sidebar": [
+            "search-2",
+            "recent-comments-2",
+            "archives-2",
+            "categories-2",
+            "meta-2"
+        ],
+        "consulting-shop": [
+            "woocommerce_product_categories-2",
+            "woocommerce_price_filter-2",
+            "woocommerce_top_rated_products-2",
+            "woocommerce_product_tag_cloud-2"
+        ],
+        "consulting-footer-1": [
+            "text-2",
+            "socials-4"
+        ],
+        "consulting-footer-2": [
+            "text-3"
+        ],
+        "consulting-footer-3": [
+            "nav_menu-2"
+        ],
+        "consulting-footer-4": [
+            "nav_menu-3"
+        ]
+    },
+    {
+        "search": {
+            "2": {
+                "title": ""
+            },
+            "_multiwidget": 1
+        },
+        "recent-comments": {
+            "2": {
+                "title": "",
+                "number": 5
+            },
+            "_multiwidget": 1
+        },
+        "archives": {
+            "2": {
+                "title": "",
+                "count": 0,
+                "dropdown": 0
+            },
+            "_multiwidget": 1
+        },
+        "categories": {
+            "2": {
+                "title": "",
+                "count": 0,
+                "hierarchical": 0,
+                "dropdown": 0
+            },
+            "_multiwidget": 1
+        },
+        "meta": {
+            "2": {
+                "title": ""
+            },
+            "_multiwidget": 1
+        },
+        "woocommerce_product_categories": {
+            "2": {
+                "title": "shop categories",
+                "orderby": "name",
+                "dropdown": 0,
+                "count": 0,
+                "hierarchical": 1,
+                "show_children_only": 0,
+                "hide_empty": 0
+            },
+            "_multiwidget": 1
+        },
+        "woocommerce_price_filter": {
+            "2": {
+                "title": "filter by price"
+            },
+            "_multiwidget": 1
+        },
+        "woocommerce_top_rated_products": {
+            "2": {
+                "title": "top rated products",
+                "number": 3
+            },
+            "_multiwidget": 1
+        },
+        "woocommerce_product_tag_cloud": {
+            "2": {
+                "title": "product tags"
+            },
+            "_multiwidget": 1
+        },
+        "text": {
+            "2": {
+                "title": "",
+                "text": "<span style=\"\">\u00a9 2019 Consulting WordPress Theme by <a style=\"color: #5a4af5 !important;\" href=\"https:\/\/stylemixthemes.com\">StylemixThemes<\/a><\/span>",
+                "filter": true,
+                "visual": true
+            },
+            "3": {
+                "title": "Contact Info",
+                "text": "Call-centre: 1 (323) 938-5798\r\nFax: 1 (888) 637-7262 \r\nEmail: info@styleixthemes.com\r\n1840 E Garvey Avenue Street West Covina, CA 91791, U.S.\r\nMonday \u2013 Friday: 9:00am \u2013 9:00pm",
+                "filter": true,
+                "visual": true
+            },
+            "_multiwidget": 1
+        },
+        "socials": {
+            "4": {
+                "title": ""
+            },
+            "2": {
+                "title": "Social Network"
+            },
+            "3": {
+                "title": ""
+            },
+            "_multiwidget": 1
+        },
+        "nav_menu": {
+            "2": {
+                "title": "QUICK LINKS",
+                "nav_menu": "consulting-sidebar_menu_1"
+            },
+            "3": {
+                "title": "INFORMATION ABOUT",
+                "nav_menu": "consulting-sidebar_menu_1"
+            },
+            "_multiwidget": 1
+        },
+        "mc4wp_form_widget": {
+            "2": {
+                "title": "Sign up for email alerts"
+            },
+            "3": {
+                "title": ""
+            },
+            "4": {
+                "title": ""
+            },
+            "_multiwidget": 1
+        }
+    }
+]

@@ -1,0 +1,892 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-12-15 11:48+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: frontend/includes.php:601
+msgid "English"
+msgstr ""
+
+#: includes/js_translations.php:6
+msgid "Button style"
+msgstr ""
+
+#: includes/js_translations.php:7
+msgid "Outline"
+msgstr ""
+
+#: includes/js_translations.php:8 includes/js_translations.php:82
+#: includes/js_translations.php:83 includes/js_translations.php:84
+#: includes/js_translations.php:85
+msgid "Solid"
+msgstr ""
+
+#: includes/js_translations.php:9
+msgid "Button Icon"
+msgstr ""
+
+#: includes/js_translations.php:10
+msgid "Icon position"
+msgstr ""
+
+#: includes/js_translations.php:11
+msgid "Left"
+msgstr ""
+
+#: includes/js_translations.php:12
+msgid "Right"
+msgstr ""
+
+#: includes/js_translations.php:13
+msgid "Button text"
+msgstr ""
+
+#: includes/js_translations.php:14
+msgid "Button URL"
+msgstr ""
+
+#: includes/js_translations.php:15
+msgid "Desktop Margins"
+msgstr ""
+
+#: includes/js_translations.php:16
+msgid "Tablet Margins"
+msgstr ""
+
+#: includes/js_translations.php:17
+msgid "Mobile Margins"
+msgstr ""
+
+#: includes/js_translations.php:18
+msgid "Cancel"
+msgstr ""
+
+#: includes/js_translations.php:19
+msgid "Save"
+msgstr ""
+
+#: includes/js_translations.php:20
+msgid "Enter text"
+msgstr ""
+
+#: includes/js_translations.php:21
+msgid "Enter URL"
+msgstr ""
+
+#: includes/js_translations.php:22
+msgid "Button Description"
+msgstr ""
+
+#: includes/js_translations.php:23
+msgid "Enter description"
+msgstr ""
+
+#: includes/js_translations.php:24
+msgid "Button text color"
+msgstr ""
+
+#: includes/js_translations.php:25
+msgid "Cart style"
+msgstr ""
+
+#: includes/js_translations.php:26
+msgid "Dropdown type"
+msgstr ""
+
+#: includes/js_translations.php:27
+msgid "Enter Dropdown label"
+msgstr ""
+
+#: includes/js_translations.php:28
+msgid "Enter Dropdown URL"
+msgstr ""
+
+#: includes/js_translations.php:29
+msgid "Dropdown label"
+msgstr ""
+
+#: includes/js_translations.php:30
+msgid "Dropdown URL"
+msgstr ""
+
+#: includes/js_translations.php:31
+msgid "Custom text color"
+msgstr ""
+
+#: includes/js_translations.php:32
+msgid "Line 1"
+msgstr ""
+
+#: includes/js_translations.php:33
+msgid "Line 2"
+msgstr ""
+
+#: includes/js_translations.php:34
+msgid "Icon box title"
+msgstr ""
+
+#: includes/js_translations.php:35
+msgid "Icon box description"
+msgstr ""
+
+#: includes/js_translations.php:36
+msgid "Use as link?"
+msgstr ""
+
+#: includes/js_translations.php:37
+msgid "Line 2 url"
+msgstr ""
+
+#: includes/js_translations.php:38
+msgid "Modal width"
+msgstr ""
+
+#: includes/js_translations.php:39
+msgid "Custom icon color"
+msgstr ""
+
+#: includes/js_translations.php:40
+msgid "Select style"
+msgstr ""
+
+#: includes/js_translations.php:41
+msgid "Select Icon"
+msgstr ""
+
+#: includes/js_translations.php:42
+msgid "Title"
+msgstr ""
+
+#: includes/js_translations.php:43
+msgid "Use Logo"
+msgstr ""
+
+#: includes/js_translations.php:44
+msgid "Add Image"
+msgstr ""
+
+#: includes/js_translations.php:45
+msgid "Replace Image"
+msgstr ""
+
+#: includes/js_translations.php:46
+msgid "Remove Image"
+msgstr ""
+
+#: includes/js_translations.php:47
+msgid "Url"
+msgstr ""
+
+#: includes/js_translations.php:48
+msgid "Enter Url"
+msgstr ""
+
+#: includes/js_translations.php:49
+msgid "Image width"
+msgstr ""
+
+#: includes/js_translations.php:50
+msgid "Enter image width"
+msgstr ""
+
+#: includes/js_translations.php:51 includes/presets.php:127
+msgid "Menu"
+msgstr ""
+
+#: includes/js_translations.php:52
+msgid "Inner menu levels text color"
+msgstr ""
+
+#: includes/js_translations.php:53
+msgid "Style"
+msgstr ""
+
+#: includes/js_translations.php:54
+msgid "Default"
+msgstr ""
+
+#: includes/js_translations.php:55
+msgid "Fullwidth with iconbox"
+msgstr ""
+
+#: includes/js_translations.php:56
+msgid "Menu iconbox"
+msgstr ""
+
+#: includes/js_translations.php:57
+msgid "Enter Icon box title"
+msgstr ""
+
+#: includes/js_translations.php:58
+msgid "Description"
+msgstr ""
+
+#: includes/js_translations.php:59
+msgid "Enter Icon box description"
+msgstr ""
+
+#: includes/js_translations.php:60
+msgid "Hover line color"
+msgstr ""
+
+#: includes/js_translations.php:61
+msgid "Enter new office"
+msgstr ""
+
+#: includes/js_translations.php:62
+msgid "Enter new office name"
+msgstr ""
+
+#: includes/js_translations.php:63
+msgid "Change office name"
+msgstr ""
+
+#: includes/js_translations.php:64
+msgid "Office name"
+msgstr ""
+
+#: includes/js_translations.php:65
+msgid "Add icon"
+msgstr ""
+
+#: includes/js_translations.php:66
+msgid "Add Text"
+msgstr ""
+
+#: includes/js_translations.php:67
+msgid "Add Url"
+msgstr ""
+
+#: includes/js_translations.php:68
+msgid "Select Button Icon"
+msgstr ""
+
+#: includes/js_translations.php:69
+msgid "Popup content pag"
+msgstr ""
+
+#: includes/js_translations.php:70
+msgid "Round"
+msgstr ""
+
+#: includes/js_translations.php:71
+msgid "Square"
+msgstr ""
+
+#: includes/js_translations.php:72
+msgid "Icon only"
+msgstr ""
+
+#: includes/js_translations.php:73
+msgid "Icon hidden"
+msgstr ""
+
+#: includes/js_translations.php:74
+msgid "Select size"
+msgstr ""
+
+#: includes/js_translations.php:75
+msgid "Small"
+msgstr ""
+
+#: includes/js_translations.php:76
+msgid "Large"
+msgstr ""
+
+#: includes/js_translations.php:77 includes/presets.php:122
+msgid "Text"
+msgstr ""
+
+#: includes/js_translations.php:78
+msgid "Font Weight"
+msgstr ""
+
+#: includes/js_translations.php:79 includes/presets.php:1236
+msgid "Light"
+msgstr ""
+
+#: includes/js_translations.php:80
+msgid "Regular"
+msgstr ""
+
+#: includes/js_translations.php:81
+msgid "Bold"
+msgstr ""
+
+#: includes/js_translations.php:86
+msgid "Import header"
+msgstr ""
+
+#: includes/screen.php:9 includes/screen.php:10
+msgid "Header Builder"
+msgstr ""
+
+#: includes/presets.php:32 includes/helpers.php:178
+msgid "None"
+msgstr ""
+
+#: includes/presets.php:60
+msgid "Button"
+msgstr ""
+
+#: includes/presets.php:65
+msgid "Offices"
+msgstr ""
+
+#: includes/presets.php:70
+msgid "Button Extended"
+msgstr ""
+
+#: includes/presets.php:75
+msgid "Popup"
+msgstr ""
+
+#: includes/presets.php:80
+msgid "Cart"
+msgstr ""
+
+#: includes/presets.php:86
+msgid "Search"
+msgstr ""
+
+#: includes/presets.php:91
+msgid "Dropdown"
+msgstr ""
+
+#: includes/presets.php:94
+msgid "Custom"
+msgstr ""
+
+#: includes/presets.php:95
+msgid "WPML"
+msgstr ""
+
+#: includes/presets.php:101
+msgid "Sign in"
+msgstr ""
+
+#: includes/presets.php:107
+msgid "Icon Box"
+msgstr ""
+
+#: includes/presets.php:112 includes/presets.php:290
+msgid "Socials"
+msgstr ""
+
+#: includes/presets.php:117
+msgid "Image"
+msgstr ""
+
+#: includes/presets.php:132
+msgid "Text with icon"
+msgstr ""
+
+#: includes/presets.php:149
+msgid "Select Option..."
+msgstr ""
+
+#: includes/presets.php:150
+msgid "Facebook"
+msgstr ""
+
+#: includes/presets.php:151
+msgid "Twitter"
+msgstr ""
+
+#: includes/presets.php:152
+msgid "VK"
+msgstr ""
+
+#: includes/presets.php:153
+msgid "Instagram"
+msgstr ""
+
+#: includes/presets.php:154
+msgid "Behance"
+msgstr ""
+
+#: includes/presets.php:155
+msgid "Dribbble"
+msgstr ""
+
+#: includes/presets.php:156
+msgid "Flickr"
+msgstr ""
+
+#: includes/presets.php:157
+msgid "Git"
+msgstr ""
+
+#: includes/presets.php:158
+msgid "Linkedin"
+msgstr ""
+
+#: includes/presets.php:159
+msgid "Pinterest"
+msgstr ""
+
+#: includes/presets.php:160
+msgid "Medium"
+msgstr ""
+
+#: includes/presets.php:161
+msgid "Yahoo"
+msgstr ""
+
+#: includes/presets.php:162
+msgid "Delicious"
+msgstr ""
+
+#: includes/presets.php:163
+msgid "Dropbox"
+msgstr ""
+
+#: includes/presets.php:164
+msgid "Odnoklassniki"
+msgstr ""
+
+#: includes/presets.php:165
+msgid "Odnoklassniki square"
+msgstr ""
+
+#: includes/presets.php:166
+msgid "Reddit"
+msgstr ""
+
+#: includes/presets.php:167
+msgid "Soundcloud"
+msgstr ""
+
+#: includes/presets.php:168
+msgid "Google"
+msgstr ""
+
+#: includes/presets.php:169
+msgid "Google +"
+msgstr ""
+
+#: includes/presets.php:170
+msgid "Skype"
+msgstr ""
+
+#: includes/presets.php:171
+msgid "Youtube"
+msgstr ""
+
+#: includes/presets.php:172
+msgid "Youtube Play"
+msgstr ""
+
+#: includes/presets.php:173
+msgid "Tumblr"
+msgstr ""
+
+#: includes/presets.php:174
+msgid "Whatsapp"
+msgstr ""
+
+#: includes/presets.php:192
+msgid "Header"
+msgstr ""
+
+#: includes/presets.php:195
+msgid "Header options"
+msgstr ""
+
+#: includes/presets.php:200
+msgid "Logo"
+msgstr ""
+
+#: includes/presets.php:202
+msgid "Main theme Logo"
+msgstr ""
+
+#: includes/presets.php:204 includes/presets.php:274 includes/presets.php:367
+#: includes/presets.php:428 includes/presets.php:489
+msgid "Add image"
+msgstr ""
+
+#: includes/presets.php:205 includes/presets.php:275 includes/presets.php:368
+#: includes/presets.php:429 includes/presets.php:490
+msgid "Remove image"
+msgstr ""
+
+#: includes/presets.php:206 includes/presets.php:276 includes/presets.php:369
+#: includes/presets.php:430 includes/presets.php:491
+msgid "Replace image"
+msgstr ""
+
+#: includes/presets.php:213
+msgid "Header Container width (px)"
+msgstr ""
+
+#: includes/presets.php:214
+msgid "Header maximum width (100% if empty)"
+msgstr ""
+
+#: includes/presets.php:224
+msgid "Header Content width (px)"
+msgstr ""
+
+#: includes/presets.php:225
+msgid "Header maximum content width (100% if empty)"
+msgstr ""
+
+#: includes/presets.php:235
+msgid "Header Colors"
+msgstr ""
+
+#: includes/presets.php:242
+msgid "Main color"
+msgstr ""
+
+#: includes/presets.php:249
+msgid "Secondary color"
+msgstr ""
+
+#: includes/presets.php:256
+msgid "Third color"
+msgstr ""
+
+#: includes/presets.php:263
+msgid "Background color"
+msgstr ""
+
+#: includes/presets.php:270
+msgid "Header Background image"
+msgstr ""
+
+#: includes/presets.php:272 includes/presets.php:426
+msgid "Image for header background"
+msgstr ""
+
+#: includes/presets.php:283
+msgid "Header Socials"
+msgstr ""
+
+#: includes/presets.php:293
+msgid "Select a site"
+msgstr ""
+
+#: includes/presets.php:294
+msgid "Enter full URL"
+msgstr ""
+
+#: includes/presets.php:295
+msgid "Add new"
+msgstr ""
+
+#: includes/presets.php:303
+msgid "Header builder"
+msgstr ""
+
+#: includes/presets.php:308
+msgid "Build your dream"
+msgstr ""
+
+#: includes/presets.php:315
+msgid "Top bar"
+msgstr ""
+
+#: includes/presets.php:320 includes/presets.php:381 includes/presets.php:442
+msgid "Padding top (px)"
+msgstr ""
+
+#: includes/presets.php:321 includes/presets.php:382 includes/presets.php:443
+msgid "Set top padding"
+msgstr ""
+
+#: includes/presets.php:331 includes/presets.php:392 includes/presets.php:453
+msgid "Padding bottom (px)"
+msgstr ""
+
+#: includes/presets.php:332 includes/presets.php:393 includes/presets.php:454
+msgid "Set bottom padding"
+msgstr ""
+
+#: includes/presets.php:342
+msgid "Top bar background color"
+msgstr ""
+
+#: includes/presets.php:349
+msgid "Top bar text color"
+msgstr ""
+
+#: includes/presets.php:356
+msgid "Top bar link color on hover"
+msgstr ""
+
+#: includes/presets.php:363 includes/presets.php:424 includes/presets.php:485
+msgid "Background image"
+msgstr ""
+
+#: includes/presets.php:365
+msgid "Image for top bar background"
+msgstr ""
+
+#: includes/presets.php:376
+msgid "Main header"
+msgstr ""
+
+#: includes/presets.php:403
+msgid "Header background color"
+msgstr ""
+
+#: includes/presets.php:410
+msgid "Header text color"
+msgstr ""
+
+#: includes/presets.php:417
+msgid "Header text color on hover"
+msgstr ""
+
+#: includes/presets.php:437
+msgid "Bottom bar"
+msgstr ""
+
+#: includes/presets.php:464
+msgid "Bottom bar background color"
+msgstr ""
+
+#: includes/presets.php:471
+msgid "Bottom bar text color"
+msgstr ""
+
+#: includes/presets.php:478
+msgid "Bottom bar link color on hover"
+msgstr ""
+
+#: includes/presets.php:487
+msgid "Image for bottom bar background"
+msgstr ""
+
+#: includes/presets.php:498
+msgid "Import Header"
+msgstr ""
+
+#: includes/presets.php:503
+msgid "Choose header to import"
+msgstr ""
+
+#: includes/presets.php:1228
+msgid "Select font-weight"
+msgstr ""
+
+#: includes/presets.php:1230
+msgid "Bolder (800)"
+msgstr ""
+
+#: includes/presets.php:1231
+msgid "Bold (700)"
+msgstr ""
+
+#: includes/presets.php:1232
+msgid "Semi-Bold (600)"
+msgstr ""
+
+#: includes/presets.php:1233
+msgid "Medium (500)"
+msgstr ""
+
+#: includes/presets.php:1234
+msgid "Normal (400)"
+msgstr ""
+
+#: includes/helpers.php:51
+#, php-format
+msgid "Delete \"%s\""
+msgstr ""
+
+#: includes/helpers.php:58
+msgid "Construction"
+msgstr ""
+
+#: includes/helpers.php:59
+msgid "Beauty"
+msgstr ""
+
+#: includes/helpers.php:60
+msgid "Transportation"
+msgstr ""
+
+#: includes/helpers.php:61
+msgid "Medical"
+msgstr ""
+
+#: includes/helpers.php:62
+msgid "Healthcoach"
+msgstr ""
+
+#: includes/helpers.php:63
+msgid "Music"
+msgstr ""
+
+#: includes/helpers.php:64
+msgid "Charity"
+msgstr ""
+
+#: includes/helpers.php:65
+msgid "Rental"
+msgstr ""
+
+#: includes/helpers.php:66
+msgid "Church"
+msgstr ""
+
+#: includes/helpers.php:67
+msgid "Viral"
+msgstr ""
+
+#: includes/helpers.php:68
+msgid "Restaurant"
+msgstr ""
+
+#: includes/helpers.php:69
+msgid "Personal_blog"
+msgstr ""
+
+#: includes/helpers.php:272
+msgid "Settings Saved"
+msgstr ""
+
+#: includes/helpers.php:274
+msgid "Nothing to save"
+msgstr ""
+
+#: includes/helpers.php:277
+msgid "Error occured"
+msgstr ""
+
+#: includes/helpers.php:324
+msgid "Default Header"
+msgstr ""
+
+#: includes/helpers.php:438
+msgid "Header with this name already exists"
+msgstr ""
+
+#: includes/helpers.php:454
+msgid "Header imported, reloading page"
+msgstr ""
+
+#: includes/helpers.php:460
+msgid "Option with this name already exists"
+msgstr ""
+
+#: includes/views/hb_variants.php:17
+msgid "Select a header to edit:"
+msgstr ""
+
+#: includes/views/hb_variants.php:29
+#, php-format
+msgid "or <a href=\"%s\">create a new header</a>."
+msgstr ""
+
+#: includes/views/hb_variants.php:37
+msgid "Enter header name"
+msgstr ""
+
+#: includes/views/hb_variants.php:40
+msgid "Add new header"
+msgstr ""
+
+#: includes/views/hb_variants.php:47
+#, php-format
+msgid ""
+"Insert shortcode or action to display your builded header in <a href=\"%s\" "
+"target=\"_blank\">header template</a>"
+msgstr ""
+
+#: hb_templates/mobile/mobile.php:23
+msgid "Home"
+msgstr ""
+
+#: hb_templates/mobile/mobile.php:25
+msgid "Site Logo"
+msgstr ""
+
+#: hb_templates/elements/signin/signin.php:6
+msgid "My account"
+msgstr ""
+
+#: hb_templates/elements/signin/signin.php:9
+msgid "Login / Register"
+msgstr ""
+
+#: hb_templates/elements/cart/mini-cart.php:43
+msgid "No products in the cart."
+msgstr ""
+
+#: hb_templates/elements/cart/mini-cart.php:47
+msgid "Subtotal"
+msgstr ""
+
+#: hb_templates/elements/cart/mini-cart.php:51
+msgid "Checkout"
+msgstr ""
+
+#: hb_templates/elements/cart/mini-cart.php:53
+msgid "View cart"
+msgstr ""
+
+#: hb_templates/elements/cart/quantity_with_text.php:4
+#, php-format
+msgid "%d item in Cart"
+msgid_plural "%d items in Cart"
+msgstr[0] ""
+msgstr[1] ""
+
+#: hb_templates/elements/socials/socials.php:30
+msgid "Follow"
+msgstr ""
+
+#: hb_templates/elements/socials/socials.php:37
+#: hb_templates/elements/socials/socials.php:51
+msgid "Social item"
+msgstr ""
+
+#: hb_templates/elements/filter/filter.php:22
+msgid "Hot"
+msgstr ""
+
+#: hb_templates/elements/filter/filter.php:28
+msgid "Popular"
+msgstr ""
+
+#: hb_templates/elements/filter/filter.php:34
+msgid "Latest"
+msgstr ""
+
+#: hb_templates/elements/filter/filter.php:40
+msgid "Trending"
+msgstr ""
+
+#. Name of the plugin
+msgid "Pearl Header Builder"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Pearl Header Builder gives you complete freedom to compose a header that "
+"perfectly suits your site."
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "http://stylemixthemes.com"
+msgstr ""
+
+#. Author of the plugin
+msgid "StylemixThemes"
+msgstr ""

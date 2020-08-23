@@ -1,0 +1,187 @@
+{
+    "bottom_bar_bg": "",
+    "bottom_bar_bottom": "0",
+    "bottom_bar_color": "",
+    "bottom_bar_link_color_hover": "",
+    "bottom_bar_text_color": "",
+    "bottom_bar_top": "0",
+    "header_builder": {
+        "center": {
+            "center": [
+                {
+                    "$$hashKey": "object:1625",
+                    "data": {
+                        "font": "hf",
+                        "hoverColor": "#7bc74d",
+                        "id": "consulting-primary_menu",
+                        "innerColor": "#002e5b",
+                        "innerHoverColor": "#6c98e1",
+                        "style": "default"
+                    },
+                    "disabled": {
+                        "default": "",
+                        "mobile": "",
+                        "tablet": ""
+                    },
+                    "icon": "stm_hb-menu",
+                    "label": "Menu",
+                    "order": {
+                        "mobile": "2300",
+                        "tablet": "2300"
+                    },
+                    "position": [
+                        "center",
+                        "center",
+                        "0"
+                    ],
+                    "type": "menu"
+                }
+            ]
+        },
+        "top": {
+            "center": [
+                {
+                    "$$hashKey": "object:2208",
+                    "data": {
+                        "url": "",
+                        "uselogo": "true"
+                    },
+                    "disabled": {
+                        "default": "",
+                        "mobile": "",
+                        "tablet": ""
+                    },
+                    "icon": "stm_hb-image",
+                    "label": "Image",
+                    "margins": {
+                        "default": {
+                            "left": "",
+                            "right": ""
+                        }
+                    },
+                    "order": {
+                        "mobile": "2100",
+                        "tablet": "2100"
+                    },
+                    "position": [
+                        "top",
+                        "center",
+                        "0"
+                    ],
+                    "type": "image",
+                    "value": "5354"
+                }
+            ],
+            "left": [
+                {
+                    "$$hashKey": "object:298",
+                    "choices": {
+                        "custom": "Custom",
+                        "wpml": "WPML"
+                    },
+                    "disabled": {
+                        "default": "",
+                        "mobile": "",
+                        "tablet": ""
+                    },
+                    "dropdown": [
+                        {
+                            "label": "English",
+                            "url": "#"
+                        },
+                        {
+                            "label": "French",
+                            "url": "#"
+                        },
+                        {
+                            "label": "German",
+                            "url": "#"
+                        }
+                    ],
+                    "icon": "stm_hb-dropdown",
+                    "label": "Dropdown",
+                    "order": {
+                        "mobile": "1100",
+                        "tablet": "1100"
+                    },
+                    "position": [
+                        "top",
+                        "left",
+                        "0"
+                    ],
+                    "textColor": "#ffffff",
+                    "type": "dropdown",
+                    "value": "custom"
+                }
+            ],
+            "right": [
+                {
+                    "$$hashKey": "object:1501",
+                    "data": {
+                        "description": "Free call",
+                        "icon": "fa fa-phone",
+                        "title": "212-714-0177"
+                    },
+                    "disabled": {
+                        "default": "",
+                        "mobile": "",
+                        "tablet": ""
+                    },
+                    "icon": "stm_hb-leaf",
+                    "label": "Icon Box",
+                    "order": {
+                        "mobile": "1320",
+                        "tablet": "1320"
+                    },
+                    "position": [
+                        "top",
+                        "right",
+                        "0"
+                    ],
+                    "type": "iconbox"
+                }
+            ]
+        }
+    },
+    "header_bg": "",
+    "header_bottom": "17",
+    "header_color": "",
+    "header_text_color": "",
+    "header_text_color_hover": "#7bc74d",
+    "header_top": "17",
+    "all_bg": "",
+    "all_bg_color": "",
+    "divider_h_socials_0": "",
+    "divider_h_socials_1": "",
+    "header_container_width": "0",
+    "header_content_width": "0",
+    "header_full_width": "",
+    "header_socials": [
+        {
+            "social": "fa fa-facebook",
+            "url": "https:\/\/www.facebook.com\/stylemixthemes\/"
+        },
+        {
+            "social": "fa fa-twitter",
+            "url": "https:\/\/twitter.com\/stylemix_themes"
+        },
+        {
+            "social": "fa fa-instagram",
+            "url": "https:\/\/www.instagram.com\/stylemixthemes\/"
+        }
+    ],
+    "header_sticky": "",
+    "logo": "",
+    "logo_dark": "",
+    "main_color": "#010101",
+    "secondary_color": "#3595d6",
+    "third_color": "#3595d6",
+    "top_bar_bg": "",
+    "top_bar_bottom": "20",
+    "top_bar_color": "",
+    "top_bar_link_color_hover": "",
+    "top_bar_text_color": "",
+    "top_bar_top": "20",
+    "stm_hb_slug": "stm_hb_settings",
+    "stm_hb_name": "Default Header"
+}

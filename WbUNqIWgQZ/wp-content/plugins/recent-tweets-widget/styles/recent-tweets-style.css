@@ -1,0 +1,51 @@
+/* Wordpress Google Fonts admin style */
+.recent-tweets-selections{
+	display:none;
+}
+.recent-tweets-variants .variant-items,
+.recent-tweets-subsets .subset-items{
+	border:1px solid #ccc;
+	margin:10px;
+	padding:5px;
+	
+}
+.recent-tweets-block{
+	padding:20px;
+	margin-bottom:20px;
+	border:1px solid #ccc;
+	clear:both;
+	overflow:hidden;
+	position:relative;
+}
+.recent-tweets-variants,
+.recent-tweets-subsets,
+.recent-tweets-usage,
+.recent-tweets-css{
+	float:left;
+	width: 44%;
+	margin-right:3%;
+}
+.recent-tweets-subsets.single{
+	display:none;
+}
+.recent-tweets-css textarea{
+	width: 96%;
+	height: 100px;
+}
+#recent-tweetss_options .slight{
+	font-style:italic;
+	color:#ccc;
+}
+.recent-tweets-block .gfspinner{
+	background:url('../images/spinner.gif') no-repeat 0 0 scroll transparent;
+	height:60px;
+	width:60px;
+	position:absolute;
+	left:50%;
+	top:10px;
+	z-index:1;
+	display:block;
+}
+.recent-tweets-block .button-primary{
+	margin-top:10px;
+}

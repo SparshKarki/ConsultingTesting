@@ -1,0 +1,33 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: STM Configurations\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-28 05:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.0; wp-5.3.2"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "http://stylemixthemes.com/"
+msgstr ""
+
+#. Name of the plugin
+msgid "STM Configurations"
+msgstr ""
+
+#. Description of the plugin
+msgid "STM Post Type"
+msgstr ""
+
+#. Author of the plugin
+msgid "Stylemix Themes"
+msgstr ""

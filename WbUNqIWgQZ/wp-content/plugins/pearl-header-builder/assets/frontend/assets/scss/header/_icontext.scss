@@ -1,0 +1,40 @@
+.stm-icontext {
+    &__info {
+        padding-left: 33px;
+        &_divider {
+            position: relative;
+            display: inline-block;
+            &:first-child {
+                &:after {
+                    display: none;
+                }
+            }
+        }
+    }
+    &__icon {
+        margin-right: 9px;
+        font-size: 14px;
+        vertical-align: top;
+    }
+    &__text {
+        font-size: 13px;
+        line-height: 16px;
+        vertical-align: top;
+    }
+    &_style2 {
+        display: flex;
+        margin-bottom: 21px;
+        .stm-icontext__text,
+        .stm-icontext__icon {
+            display: block;
+        }
+        .stm-icontext__icon {
+            min-width: 42px;
+            margin-right: 0;
+            opacity: 0.6;
+        }
+        .stm-icontext__text {
+            padding-top: 2px;
+        }
+    }
+}

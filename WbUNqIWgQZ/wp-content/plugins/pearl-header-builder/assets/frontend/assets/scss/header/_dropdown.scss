@@ -1,0 +1,54 @@
+.stm-header {
+    .dropdown {
+        position: relative;
+        &-toggle {
+            position: static;
+            display: block;
+            box-sizing: border-box;
+            min-height: 40px;
+            width: auto;
+            height: auto;
+            padding: 5px 40px 5px 20px;
+            font-size: 13px;
+            text-transform: uppercase;
+            line-height: 30px;
+            font-weight: 700;
+            -webkit-appearance: inherit;
+            cursor: pointer !important;
+            &:after {
+                content: '';
+                display: block;
+                position: absolute;
+                right: 18px;
+                top: 50%;
+                left: auto;
+                margin-top: -3.5px;
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 5px 3.5px 0;
+                border-color: #fff transparent transparent;
+            }
+        }
+        &-list {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            margin: 0;
+            list-style: none;
+            display: none;
+            li {
+                a {
+                    display: block;
+                    width: 100%;
+                }
+            }
+        }
+        &.open {
+            .dropdown-list {
+                display: block;
+            }
+        }
+    }
+}

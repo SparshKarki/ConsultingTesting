@@ -1,0 +1,30 @@
+.btn_extended {
+    display: block;
+    position: relative;
+    padding: 19px 40px 19px 90px !important;
+    border-radius: 0 !important;
+    text-decoration: none !important;
+    .stm-button__icon {
+        position: absolute;
+        font-size: 36px;
+        left: 30px;
+        top: 50%;
+        transform: translate3d(0, -53%, 0);
+    }
+    .stm-button__text {
+        margin: 7px 0 0;
+        font-size: 14px;
+        line-height: 1;
+        font-weight: 500;
+    }
+    .stm-button__description {
+        font-size: 13px;
+        font-weight: 300;
+    }
+    @include breakpoint(tabletunder) {
+        padding: 19px 20px 19px 65px !important;
+        .stm-button__icon {
+            left: 15px;
+        }
+    }
+}

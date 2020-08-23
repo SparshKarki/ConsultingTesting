@@ -1,0 +1,148 @@
+@mixin pseudo() {
+    content: '';
+    display: block;
+}
+
+@mixin absoluted() {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+@mixin text_rendering() {
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@mixin fa() {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@mixin h_line() {
+    content: '';
+    display: block;
+    width: 46px;
+    height: 5px;
+    margin: 0 0 21px;
+}
+
+@mixin border_small() {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 4px;
+    font-size: 10px;
+    text-rendering: auto;
+    width: 0;
+    height: 0;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-right: 5px solid transparent;
+}
+
+@mixin repeating_gradient() {
+    background: repeating-linear-gradient(
+        135deg,
+        rgba(0,0,0,0.15) 5px,
+        rgba(0,0,0,0.15) 10px,
+        transparent 10px,
+        transparent 15px
+    )
+}
+
+@mixin repeating_border_gradient() {
+    border-image: repeating-linear-gradient(
+        -45deg,
+        transparent 0px,
+        transparent 5px,
+        rgba(0, 0, 0, .1) 5px,
+        rgba(0, 0, 0, .1) 10px) 4;
+}
+
+@mixin preloader() {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    box-shadow: none;
+    animation: scaleout 1.0s infinite ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+@mixin breakpoint($point) {
+    @if $point == laptop {
+        @media (max-width: 1440px) { @content ; }
+    }
+    @else if $point == underLaptop {
+        @media (min-width: 1500px) { @content ; }
+    }
+    @else if $point == afterLaptop {
+        @media (max-width: 1500px) { @content ; }
+    }
+    @else if $point == tablet {
+        @media (max-width: 1024px) { @content ; }
+    }
+    @else if $point == tabletland {
+        @media (max-width: 1025px) and (min-width: 992px)  { @content ; }
+    }
+    @else if $point == tabletunder {
+        @media (max-width: 1023px) { @content ; }
+    }
+    @else if $point == tabletonly {
+        @media (max-width: 769px) { @content ; }
+    }
+    @else if $point == mobile {
+        @media (max-width: 550px)  { @content ; }
+    }
+    @else if $point == tabletized {
+        @media (max-width: 769px) and (min-width: 425px)  { @content ; }
+    }
+    @else if $point == mobilized {
+        @media (max-width: 425px) { @content ; }
+    }
+    @else if $point == iphone5portrait {
+        @media (max-width: 570px) and (min-width: 551px)  { @content ; }
+    }
+    @else {
+        @media (max-width: $point) { @content ; }
+    }
+}
+
+@mixin stmicon($content) {
+    content: $content;
+    font-family: 'stmicons';
+}
+
+@mixin absAlign($direction) {
+    position: absolute;
+
+    @if($direction == v) {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    @else if($direction == h) {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    @else if($direction == c) {
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+}
+
+@mixin clearfix() {
+    &:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+}

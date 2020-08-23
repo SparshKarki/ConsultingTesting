@@ -1,0 +1,118 @@
+@import "../mixins";
+
+@for $i from 8 through 60 {
+    [class*="__icon"].icon_#{$i}px {
+        font-size: #{$i}px;
+    }
+}
+
+@for $i from 1 through 65 {
+    body .stm_lh_#{$i} {
+        line-height: #{$i}px;
+    }
+}
+
+@for $i from 12 through 55 {
+    .fsz_#{$i} {
+        font-size: #{$i}px !important;
+    }
+}
+
+@for $i from 0 through 70 {
+    body .stm_mgt_#{$i} {
+        margin-top: #{$i}px;
+    }
+    body .stm_mgb_#{$i} {
+        margin-bottom: #{$i}px;
+    }
+    body .stm_mgl_#{$i} {
+        margin-left: #{$i}px;
+    }
+    body .stm_mgr_#{$i} {
+        margin-right: #{$i}px;
+    }
+}
+
+/*font weights*/
+.fwl {
+    font-weight: 300 !important;
+}
+
+.fwn {
+    font-weight: 400 !important;
+}
+
+.fwm {
+    font-weight: 500 !important;
+}
+
+.fwsb {
+    font-weight: 600 !important;
+}
+
+.fwb {
+    font-weight: 700 !important;
+}
+
+.fweb {
+    font-weight: 900 !important;
+}
+
+.stm_ls_0 {
+    letter-spacing: 0 !important;
+}
+
+.stm_mgl_a {
+    margin-left: auto !important;
+}
+
+.stm_mgr_a {
+    margin-right: auto !important;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.no-margin {
+    margin: 0 !important;
+}
+
+.no_deco {
+    text-decoration: none !important;
+}
+
+.text-transform {
+    text-transform: uppercase !important;
+}
+
+.text-transform_lower {
+    text-transform: lowercase !important;
+}
+
+.wtc {
+    color: $white !important;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    transform: translateZ(0);
+}
+
+.stm_dpb {
+    display: block;
+}
+
+.js_trigger__unit {
+    display: none;
+    &_class {
+        display: block;
+    }
+}
+
+.ic {
+    &:hover {
+        color: inherit;
+    }
+}

@@ -1,0 +1,190 @@
+{
+  "bottom_bar_bg": "",
+  "bottom_bar_bottom": "0",
+  "bottom_bar_color": "",
+  "bottom_bar_link_color_hover": "",
+  "bottom_bar_text_color": "",
+  "bottom_bar_top": "0",
+  "header_builder": {
+    "center": {
+      "left": [
+        {
+          "$$hashKey": "object:502",
+          "data": {
+            "url": "",
+            "uselogo": "false"
+          },
+          "disabled": {
+            "default": "",
+            "mobile": "",
+            "tablet": ""
+          },
+          "icon": "stm_hb-image",
+          "label": "Image",
+          "order": {
+            "mobile": "2100",
+            "tablet": "2100"
+          },
+          "position": [
+            "center",
+            "left",
+            "0"
+          ],
+          "type": "image",
+          "value": "5077"
+        }
+      ],
+      "right": [
+        {
+          "$$hashKey": "object:750",
+          "data": {
+            "font": "hf",
+            "hoverColor": "#3595d6",
+            "id": "consulting-primary_menu",
+            "innerColor": "#3f3f3f",
+            "innerHoverColor": "#3595d6",
+            "style": "default"
+          },
+          "disabled": {
+            "default": "",
+            "mobile": "",
+            "tablet": ""
+          },
+          "icon": "stm_hb-menu",
+          "label": "Menu",
+          "order": {
+            "mobile": "2300",
+            "tablet": "2300"
+          },
+          "position": [
+            "center",
+            "right",
+            "0"
+          ],
+          "type": "menu"
+        },
+        {
+          "$$hashKey": "object:259",
+          "disabled": {
+            "default": "",
+            "mobile": "",
+            "tablet": ""
+          },
+          "icon": "stm_hb-cart",
+          "label": "Cart",
+          "order": {
+            "mobile": "2310",
+            "tablet": "2310"
+          },
+          "position": [
+            "center",
+            "right",
+            "1"
+          ],
+          "type": "cart",
+          "value": "style_1",
+          "woocommerce": "true"
+        }
+      ]
+    },
+    "top": {
+      "left": [
+        {
+          "$$hashKey": "object:371",
+          "disabled": {
+            "default": "",
+            "mobile": "",
+            "tablet": ""
+          },
+          "icon": "stm_hb-a",
+          "label": "Text",
+          "order": {
+            "mobile": "1100",
+            "tablet": "1100"
+          },
+          "position": [
+            "top",
+            "left",
+            "0"
+          ],
+          "type": "text",
+          "value": "Have any questions? <a href=\\\\\\\"tel:661-492-2412\\\\\\\">661-492-2412<\/a>"
+        }
+      ],
+      "right": [
+        {
+          "$$hashKey": "object:303",
+          "data": {
+            "style": "icon_only"
+          },
+          "disabled": {
+            "default": "",
+            "mobile": "",
+            "tablet": ""
+          },
+          "icon": "stm_hb-twitter",
+          "label": "Socials",
+          "order": {
+            "mobile": "1300",
+            "tablet": "1300"
+          },
+          "position": [
+            "top",
+            "right",
+            "0"
+          ],
+          "type": "socials"
+        }
+      ]
+    }
+  },
+  "header_bg": "",
+  "header_bottom": "35",
+  "header_color": "#ffffff",
+  "header_text_color": "#3f3f3f",
+  "header_text_color_hover": "#3595d6",
+  "header_top": "35",
+  "all_bg": "",
+  "all_bg_color": "",
+  "divider_h_socials_0": "",
+  "divider_h_socials_1": "",
+  "header_container_width": "0",
+  "header_content_width": "0",
+  "header_full_width": "",
+  "header_socials": [
+    {
+      "social": "fa fa-facebook",
+      "url": "#"
+    },
+    {
+      "social": "fa fa-twitter",
+      "url": "#"
+    },
+    {
+      "social": "fa fa-flickr",
+      "url": "#"
+    },
+    {
+      "social": "fa fa-google",
+      "url": "#"
+    },
+    {
+      "social": "fa fa-dribbble",
+      "url": "#"
+    }
+  ],
+  "header_sticky": "",
+  "logo": "5077",
+  "logo_dark": "",
+  "main_color": "#010101",
+  "secondary_color": "#3595d6",
+  "third_color": "#3595d6",
+  "top_bar_bg": "",
+  "top_bar_bottom": "7",
+  "top_bar_color": "#f6f6f6",
+  "top_bar_link_color_hover": "",
+  "top_bar_text_color": "#999999",
+  "top_bar_top": "7",
+  "stm_hb_slug": "stm_hb_settings",
+  "stm_hb_name": "Default Header"
+}

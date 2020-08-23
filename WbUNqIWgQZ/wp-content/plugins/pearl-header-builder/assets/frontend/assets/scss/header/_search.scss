@@ -1,0 +1,39 @@
+@import "../mixins";
+
+.stm_widget_search {
+    max-width: 200px;
+}
+
+.stm-search {
+    &_style_1 {
+        [data-toggle='modal'] {
+            display: block;
+            &:focus {
+                outline: none;
+            }
+        }
+        a {
+            width: 36px;
+            height: 36px;
+            border: 1px solid transparent;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 36px;
+            font-size: 10px;
+        }
+    }
+
+    .stm_widget_search {
+        position: relative;
+        .form-control {
+            padding-right: 40px;
+        }
+        button[type="submit"] {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            border-radius: 0;
+        }
+    }
+}

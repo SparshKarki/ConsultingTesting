@@ -1,0 +1,1 @@
+<div class="calc-item html" :id="'id_for_label_' + htmlField._id" v-html="htmlContent" :class="htmlField.additionalStyles"></div>

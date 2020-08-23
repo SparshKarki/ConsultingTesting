@@ -1,0 +1,100 @@
+.stm-navigation {
+    &__line_top {
+        > ul {
+            > li {
+                position: relative;
+                &:before {
+                    @include pseudo();
+                    position: absolute;
+                    left: 15px;
+                    right: 15px;
+                    top: -2px;
+                    height: 4px;
+                    opacity: 0;
+                    visibility: hidden;
+                }
+                &:hover {
+                    &:before {
+                        opacity: 1;
+                        visibility: visible;
+                        top: -10px;
+                    }
+                }
+            }
+        }
+
+        /*Fullwidth*/
+        &.stm-navigation__fullwidth {
+            > ul {
+                > li {
+                    &:before {
+                        top: -4px;
+                    }
+                    &:hover {
+                        &:before {
+                            opacity: 1;
+                            visibility: visible;
+                            top: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &__line_middle {
+        > ul {
+            > li {
+                position: relative;
+                &:before {
+                    @include pseudo();
+                    position: absolute;
+                    left: 50%;
+                    right: 100%;
+                    top: 50%;
+                    height: 2px;
+                    margin: -1px 0 0;
+                    opacity: 0;
+                    transform: scale(0.5) translateX(-50%);
+                    transition: .3s;
+                    visibility: hidden;
+                }
+                &.current-menu-item,
+                &:hover {
+                    &:before {
+                        left: 15px;
+                        right: 15px;
+                        transform: scale(1) translateX(0);
+                        opacity: 1;
+                        visibility: visible;
+                    }
+                }
+            }
+        }
+    }
+
+    &__line_bottom {
+        > ul {
+            > li {
+                position: relative;
+                &:before {
+                    @include pseudo();
+                    position: absolute;
+                    left: 15px;
+                    right: 15px;
+                    bottom: -5px;
+                    height: 4px;
+                    opacity: 0;
+                    visibility: hidden;
+                }
+                &:hover {
+                    &:before {
+                        opacity: 1;
+                        visibility: visible;
+                        bottom: -10px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+.stm-iconbox {
+    display: flex;
+    align-items: flex-start;
+    &__icon {
+        &_left {
+            margin-right: 14px;
+        }
+        &_right {
+            margin-left: 14px;
+        }
+    }
+    &__info {
+        overflow: hidden;
+    }
+    &__text {
+        margin-bottom: 5px;
+        font-weight: 700;
+        letter-spacing: 0.1px;
+        &_nomargin {
+            margin-bottom: 0;
+        }
+    }
+    &__description {
+        font-size: 13px;
+    }
+}

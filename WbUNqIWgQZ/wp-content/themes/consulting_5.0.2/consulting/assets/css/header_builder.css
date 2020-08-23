@@ -1,0 +1,114 @@
+.stm-header .stm_btn:hover {
+    text-decoration: none;
+}
+
+.stm-header .fa {
+    font-family: 'FontAwesome' !important;
+}
+
+.stm-header .stm-cart:before {
+    display: none;
+}
+
+/*Search */
+@media only screen and (min-width: 1024px) {
+.stm-search .stm_widget_search i {
+    position: relative;
+    cursor: pointer;
+    font-size: 15px;
+    color: #fff;
+}
+
+.stm-search .stm_widget_search.active .search_wrapper .hb_search_form {
+    width: 50%;
+}
+
+.stm-search .stm_widget_search.active .search_wrapper {
+    display: flex !important;
+}
+
+.stm-search .stm_widget_search .search_wrapper {
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999999999;
+}
+
+.stm-search .stm_widget_search .search_wrapper .hb_search_form_wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0, 0.8);
+    z-index: 1;
+}
+
+.stm-search .stm_widget_search .search_wrapper .hb_search_form {
+    position: relative;
+    z-index: 2;
+}
+
+.stm-header .stm-search .stm_widget_search .search_wrapper form {
+    margin: 0 auto;
+    display: flex;
+}
+
+.stm-header .stm-search .stm_widget_search .form-control {
+    padding: 0 20px;
+    background-color: #fff !important;
+}
+
+.stm-header .stm-search .stm_widget_search .form-control:focus,
+.stm-header .stm-search .stm_widget_search .form-control:active {
+    box-shadow: none !important;
+    border-radius: 0 !important;
+}
+
+.stm-header .stm-search .stm_widget_search button[type=submit] {
+    position: relative;
+    bottom: auto;
+    right: auto;
+    padding: 0 20px;
+    background: #fff !important;
+    border: 0;
+}
+
+.stm-header .stm-search .stm_widget_search button[type=submit]:active,
+.stm-header .stm-search .stm_widget_search button[type=submit]:focus {
+    outline: none !important;
+}
+
+.stm-header .stm-search .stm_widget_search button[type=submit] i {
+    font-size: 20px;
+    color: #000 !important;
+}
+}
+
+@media only screen and (max-width: 1023px) {
+.stm_widget_search .stm_widget_search_button {
+    display: none;
+}
+.stm_widget_search .search_wrapper.hidden {
+    display: block !important;
+}
+
+.stm-search .stm_widget_search {
+    max-width: 220px;
+}
+
+.stm-search .stm_widget_search .form-control {
+    height: 36px !important;
+    padding-left: 10px !important;
+}
+.stm-search .stm_widget_search button[type=submit] {
+    padding: 5px 10px !important;
+}
+.stm-search .stm_widget_search button[type=submit] i {
+    color: #fff;
+}
+}

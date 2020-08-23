@@ -1,0 +1,25 @@
+.stm-offices {
+    display: flex;
+    align-items: center;
+    .stm-icontext__info {
+        margin-top: 10px;
+    }
+    .stm-switcher__option,
+    .stm-switcher__text {
+        line-height: 40px;
+    }
+    @include breakpoint(tabletunder) {
+        display: block !important;
+        .stm-switcher {
+            display: block;
+            width: 100%;
+            margin: 0 0 15px;
+        }
+        .stm-icontext {
+            &__info {
+                display: block;
+                padding: 10px 0 0;
+            }
+        }
+    }
+}

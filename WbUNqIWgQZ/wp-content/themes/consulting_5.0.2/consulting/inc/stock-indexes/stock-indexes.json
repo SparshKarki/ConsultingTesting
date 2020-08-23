@@ -1,0 +1,252 @@
+{
+    "0": {
+        "label":"BBC",
+        "value":"BBC",
+        "description":"Virtus LifeSci Biotech Clinical Trials ETF"
+    },
+    "1": {
+        "label":"^YHQ",
+        "value":"^YHQ",
+        "description":"Yahoo! Inc."
+    },
+    "2": {
+        "label":"ES=F",
+        "value":"ES=F",
+        "description":"E-mini S&P 500 Index Futures"
+    },
+    "3": {
+        "label":"RUT",
+        "value":"RUT",
+        "description":"US SmallCap 200"
+    },
+    "4": {
+        "label":"GOOG",
+        "value":"GOOG",
+        "description":"Alphabet Inc."
+    },
+    "5": {
+        "label":"FB",
+        "value":"FB",
+        "description":"Facebook, Inc."
+    },
+    "6": {
+        "label":"AAPL",
+        "value":"AAPL",
+        "description":"Apple Inc."
+    },
+    "7": {
+        "label":"TSLA",
+        "value":"TSLA",
+        "description":"Tesla, Inc."
+    },
+    "8": {
+        "label":"BABA",
+        "value":"BABA",
+        "description":"Alibaba Group Holding Limited"
+    },
+    "9": {
+        "label":"NFLX",
+        "value":"NFLX",
+        "description":"Netflix, Inc."
+    },
+    "10": {
+        "label":"TWTR",
+        "value":"TWTR",
+        "description":"Twitter, Inc."
+    },
+    "11": {
+        "label":"GPRO",
+        "value":"GPRO",
+        "description":"GoPro, Inc."
+    },
+    "12": {
+        "label":"NQ=F",
+        "value":"NQ=F",
+        "description":"E-mini Nasdaq 100 Index Futures"
+    },
+    "13": {
+        "label":"MSCI",
+        "value":"MSCI",
+        "description":"MSCI Inc."
+    },
+    "14": {
+        "label":"^DJI",
+        "value":"^DJI",
+        "description":"Dow Jones Industrial Average"
+    },
+    "15": {
+        "label":"^IXIC",
+        "value":"^IXIC",
+        "description":"NASDAQ Composite"
+    },
+    "16": {
+        "label":"^FTSE",
+        "value":"^FTSE",
+        "description":"FTSE 100"
+    },
+    "17": {
+        "label":"^JKSE",
+        "value":"^JKSE",
+        "description":"Jakarta Composite Index"
+    },
+    "18": {
+        "label":"^GSPC",
+        "value":"^GSPC",
+        "description":"S&P 500"
+    },
+    "19": {
+        "label":"GE",
+        "value":"GE",
+        "description":"General Electric Company"
+    },
+    "20": {
+        "label":"ASB",
+        "value":"ASB",
+        "description":"Associated Banc-Corp"
+    },
+    "21": {
+        "label":"CLF",
+        "value":"CLF",
+        "description":"Cleveland-Cliffs Inc."
+    },
+    "22": {
+        "label":"MUX",
+        "value":"MUX",
+        "description":"McEwen Mining Inc."
+    },
+    "23": {
+        "label":"MOS",
+        "value":"MOS",
+        "description":"The Mosaic Company"
+    },
+    "24": {
+        "label":"CF",
+        "value":"CF",
+        "description":"CF Industries Holdings, Inc."
+    },
+    "25": {
+        "label":"MON",
+        "value":"MON",
+        "description":"Monsanto Company"
+    },
+    "26": {
+        "label":"TNH",
+        "value":"TNH",
+        "description":"ITerra Nitrogen Company, L.P."
+    },
+    "27": {
+        "label":"UAN",
+        "value":"UAN",
+        "description":"CVR Partners, LP"
+    },
+    "28": {
+        "label":"CVRR",
+        "value":"CVRR",
+        "description":"CVR Refining, LP"
+    },
+    "29": {
+        "label":"CVI",
+        "value":"CVI",
+        "description":"CVR Energy, Inc."
+    },
+    "30": {
+        "label":"SDT",
+        "value":"SDT",
+        "description":"SandRidge Mississippian Trust I"
+    },
+    "31": {
+        "label":"CLMT",
+        "value":"CLMT",
+        "description":"Calumet Specialty Products Partners, L.P."
+    },
+    "32": {
+        "label":"MMLP",
+        "value":"MMLP",
+        "description":"Martin Midstream Partners L.P."
+    },
+    "33": {
+        "label":"BAC",
+        "value":"BAC",
+        "description":"Bank of America Corporation"
+    },
+    "34": {
+        "label":"F",
+        "value":"F",
+        "description":"Ford Motor Company"
+    },
+    "35": {
+        "label":"JPM",
+        "value":"JPM",
+        "description":"JPMorgan Chase & Co."
+    },
+    "36": {
+        "label":"GS",
+        "value":"GS",
+        "description":"The Goldman Sachs Group, Inc."
+    },
+    "37": {
+        "label":"PFE",
+        "value":"PFE",
+        "description":"Pfizer Inc."
+    },
+    "38": {
+        "label":"MSFT",
+        "value":"MSFT",
+        "description":"Microsoft Corporation"
+    },
+    "39": {
+        "label":"AMZN",
+        "value":"AMZN",
+        "description":"Amazon.com, Inc."
+    },
+    "40": {
+        "label":"GC=F",
+        "value":"GC=F",
+        "description":"Gold Futures"
+    },
+    "41": {
+        "label":"SI=F",
+        "value":"SI=F",
+        "description":"Silver Futures"
+    },
+    "42": {
+        "label":"CL=F",
+        "value":"CL=F",
+        "description":"Light Sweet Crude Oil Futures"
+    },
+    "43": {
+        "label":"IRM",
+        "value":"IRM",
+        "description":"Iron Mountain Incorporated"
+    },
+    "44": {
+        "label":"HG=F",
+        "value":"HG=F",
+        "description":"Copper Futures"
+    },
+    "45": {
+        "label":"ACH",
+        "value":"ACH",
+        "description":"Aluminum Corporation of China Limited"
+    },
+    "46": {
+        "label":"PL=F",
+        "value":"PL=F",
+        "description":"Platinum Futures"
+    },
+    "47": {
+        "label":"BITL.BO",
+        "value":"BITL.BO",
+        "description":"Bronze Infra-Tech Limited"
+    },
+    "48": {
+        "label":"BRONZE.BO",
+        "value":"BRONZE.BO",
+        "description":"Bronze Trading Limited"
+    },
+    "49": {
+        "label":"LFC",
+        "value":"LFC",
+        "description":"China Life Insurance Company Limited"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "custom_css_post_id": -1,
+    "top_bar_contact_address_icon": "fa fa-map-marker",
+    "top_bar_contact_email_icon": "fa fa-map-marker",
+    "top_bar_contact_phone_icon": "fa fa-map-marker",
+    "header_address_icon": "fa fa-map-marker",
+    "header_working_hours_icon": "fa fa-map-marker",
+    "header_phone_icon": "fa fa-map-marker",
+    "footer_text": "",
+    "footer_copyright": "",
+    "footer_socials": "facebook,twitter,instagram,linkedin",
+    "socials": "facebook=%23&twitter=%23&instagram=%23&google-plus=&vimeo=&linkedin=%23&behance=&dribbble=&flickr=&github=&pinterest=&yahoo=&delicious=&dropbox=&reddit=&soundcloud=&google=&skype=&youtube=&youtube-play=&tumblr=&whatsapp=&odnoklassniki=&vk=&xing=",
+    "footer_style": "style_2",
+    "footer_show_hide_socials": true,
+    "nav_menu_locations": []
+}

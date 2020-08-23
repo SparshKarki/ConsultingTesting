@@ -1,0 +1,80 @@
+.stm-switcher {
+    position: relative;
+    margin-left: 19px;
+    order: 1;
+    &__trigger {
+        min-width: 170px;
+        cursor: pointer;
+        &_default {
+            min-height: 40px;
+            padding: 5px 40px 5px 20px;
+            line-height: 30px;
+            font-weight: 700;
+            font-size: 13px;
+            &:after {
+                @include pseudo();
+                position: absolute;
+                right: 18px;
+                top: 50%;
+                margin-top: -3.5px;
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 5px 3.5px 0 3.5px;
+                border-color: $white transparent transparent transparent;
+            }
+        }
+        &_uppercase {
+            text-transform: uppercase;
+        }
+        &.active {
+            &:after {
+                border-width: 0 3.5px 5px 3.5px;
+                border-color: transparent transparent $white transparent;
+            }
+        }
+    }
+    &__list {
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 100%;
+        background-color: #aaa;
+        z-index: 51;
+        &.active {
+            display: block;
+        }
+    }
+    &__option {
+        min-height: 40px;
+        padding: 5px 40px 5px 20px;
+        font-size: 13px;
+        line-height: 30px;
+        text-transform: uppercase;
+        font-weight: 700;
+        cursor: pointer;
+    }
+    &__icon {
+        margin: 0 5px 0 -5px;
+    }
+}
+
+.js-switcher {
+    &__hidden {
+        display: none;
+    }
+}
+
+/*Elements position in case of order*/
+.stm-header {
+    &__cell {
+        &_left {
+            .stm-switcher {
+                margin-left: 0;
+                margin-right: 19px;
+                order: -1;
+            }
+        }
+    }
+}

@@ -1,0 +1,144 @@
+.stm-post-filter {
+    .stm_mobile__switcher {
+        display: none;
+    }
+    .post-filter {
+        ul {
+            padding: 0;
+            padding-top: 32px;
+            margin: 0;
+            li {
+                display: block;
+                list-style: none;
+                text-align: left;
+                margin: 10px 0;
+                a {
+                    padding: 0;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    letter-spacing: 1.4px;
+                    line-height: 30px;
+                    font-weight: 600;
+                    font-size: 14px;
+                    &:hover {
+                        text-decoration: none;
+                    }
+                    .filter-icon {
+                        margin-top: 3px;
+                        display: inline-block;
+                        vertical-align: top;
+                        margin-right: 9px;
+                        font-size: 22px;
+                    }
+                    &.stm-post-filter-hot {
+                        .filter-icon {
+                            color: #ff0000;
+                        }
+                    }
+                    &.stm-post-filter-popular {
+                        .filter-icon {
+                            color: #ffaa00;
+                        }
+                    }
+                    &.stm-post-filter-latest {
+                        .filter-icon {
+                            color: #3fbb01;
+                        }
+                    }
+                    &.stm-post-filter-trending {
+                        .filter-icon {
+                            color: #289dfd;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .stm-post-filter {
+        padding: 36px 0 36px;
+        .stm_mobile__switcher {
+            display: block;
+            margin-top: 6px;
+            margin-right: 2px;
+            cursor: pointer;
+            span {
+                border-radius: 0;
+                width: 32px;
+                height: 3px;
+            }
+            &.active {
+                span {
+                    &:first-child {
+                        top: 9px;
+                    }
+                }
+            }
+        }
+        &:after {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: -40px;
+            right: -40px;
+            height: 1px;
+            background-color: #e5e5e5;
+        }
+        .post-filter {
+            position: absolute;
+            top: -100%;
+            left: -40px;
+            right: -40px;
+            padding-top: 1px;
+            text-align: center;
+            transition-delay: 1s;
+            &:after {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 0;
+                transition: height 0.3s;
+                transition-delay: 0.12s;
+                background-color: #fff;
+                box-shadow: 0 8px 10px 0 rgba(0,0,0,0.25);
+            }
+
+            ul {
+                opacity: 0;
+                visibility: hidden;
+                transition: all 0.4s;
+                transition-delay: 0s;
+                padding: 19px 0 20px;
+                position: relative;
+                overflow: hidden;
+                z-index: 1;
+
+                li {
+                    display: inline-block;
+                    text-align: center;
+                    margin: 0 22px;
+                }
+            }
+
+            &.active {
+                top: 100%;
+                transition: height 0.3s;
+                &:after {
+                    height: 100%;
+                    transition-delay: 0.1s;
+                }
+
+                ul {
+                    transition: all 0.3s;
+                    transition-delay: 0.1s;
+                    visibility: visible;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
